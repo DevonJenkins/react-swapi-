@@ -17,9 +17,11 @@ const StarshipDetails = (props) => {
 
   return (  
     <>
-    <h1> These are Starship Details</h1>
-    <h2> name: {shipDetails.name}</h2>
-    <h2> Model: {shipDetails.model}</h2>
+      <div className="ship-details">
+        <h1> Starship Details</h1>
+        <h2> Name: {shipDetails.name}</h2>
+        <h2> Model: {shipDetails.model}</h2>
+      </div>
     </>
   );
 }

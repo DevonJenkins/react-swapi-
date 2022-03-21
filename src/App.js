@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>Starwars starships</h1>
+        <h1 className='heading' >Starwars Starships</h1>
         <Routes>
             <Route path='/' element={< ShipList/>} />
             <Route path='/starship' element={< StarshipDetails/>} />

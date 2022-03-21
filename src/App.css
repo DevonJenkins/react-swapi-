@@ -1,38 +1,46 @@
-.App {
+body{
   text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+  color: rgb(202, 220, 42);
+  background: url('https://assets3.thrillist.com/v1/image/2822472/1584x1464/scale;webp=auto;jpeg_quality=60.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ship-list{
+background: black;
+opacity: .9;
+margin-left: 300px;
+margin-right: 300px;
+padding: 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ship-details{
+  background: black;
+  opacity: .9;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 10px;
+}
+
+a{
+  color: yellow;
+  text-decoration: none;
+}
+
+a:hover{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading{
+  background: gray;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 40px;
 }

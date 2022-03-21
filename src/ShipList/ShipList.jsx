@@ -15,12 +15,13 @@ const ShipList = (props) => {
 
   return (
     <>
+    <div className="ship-list">
       <h1>Ship List</h1>
       {shipList.length ? 
       <>
         {shipList.map((starship) => (
-            <div key={starship.name}>
-              <Link 
+          <div key={starship.name}  >
+          <Link 
               to="/starship"
               state={{ starship }}>
 
@@ -33,10 +34,11 @@ const ShipList = (props) => {
 
       </>
         : 
-      <>
+        <>
         <h2>Loading ship list...</h2>
       </> 
       }
+      </div>
   </>
   );
 }
